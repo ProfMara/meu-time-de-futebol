@@ -1,0 +1,51 @@
+body{
+	background-image: url("https://static.vecteezy.com/system/resources/previews/007/588/432/original/black-and-white-soccer-balls-on-light-blue-background-football-seamless-pattern-cartoon-sport-illustration-vector.jpg")
+}
+#enviarBotao
+{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+#organizarBotao
+{
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+
+input
+{
+	margin: 10px;
+	border-radius: 30px;
+	padding:10px;
+}
+#mostrarNomesOrganizado
+{
+	
+	display:none;	
+	border: 3px solid green;
+    padding: 10px;
+	background-color: greenyellow;
+	border-radius: 10px;
+    width: 50%;
+}
+
+#mostrarNomes
+{
+	display:none;	
+	border: 3px solid rgb(169, 1, 1);
+    padding: 10px;
+    background-color: rgb(255, 167, 167);
+	border-radius: 10px;
+    width: 50%;
+}
+
+button{
+	margin: 10px;
+	border-radius: 30px;
+	padding:10px;
+	background:green;
+	font-weight: bold;
+	color:yellow;
+	border: solid blue 3px;
+}
