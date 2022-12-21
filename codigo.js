@@ -1,20 +1,25 @@
 
 //criar a matriz
-
+var lista = [];
 //é aqui que cria a matrizHTML e a variável semVirgulas
+var matrizHTML = [];
 
-
+var semVirgulas = '';
 function enviar(){
-    //repete os comandos 5 vezes
 
-    
-    //é aqui que cria a matrizHTML com 5 linhas
+    for(var i = 1; i < 6; i++){
+        var nome1 = document.getElementById("nome"+i).value;
+        lista.push(nome1);
+    }
 
+    for(var i = 0; i < 5; i++){
+        var linha = '<h3> Nome: ' + lista[i] + '</h3>';
+        matrizHTML.push(linha);
+    }
 
-    //é aqui que tira as vírgulas
+    semVirgulas = matrizHTML.join(" ");
 
-    //exibe a lista sem as vírgulas
-
+    document.getElementById("mostrarNomes").innerHTML = semVirgulas;
 
 
     document.getElementById("enviarBotao").style.display = "none";
